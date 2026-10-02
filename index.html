@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickNotes - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>QuickNotes</h1>
+    <p>Simple, fast, and organized note-taking for your everyday ideas.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Create a Note</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="note-title">Title:</label>
+          <input type="text" id="note-title" name="note-title" placeholder="Enter note title">
+        </div>
+        <div>
+          <label for="note-content">Note Content:</label>
+          <textarea id="note-content" name="note-content" rows="4" placeholder="Write your note here..."></textarea>
+        </div>
+        <div>
+          <button type="submit">Save Note</button>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <h2>Your Notes</h2>
+      <article>
+        <h3>Lecture 1: Introduction to Web Foundations</h3>
+        <p>Covered semantic HTML elements including header, nav, main, section, article, and footer. Emphasized accessibility and validation.</p>
+      </article>
+
+      <article>
+        <h3>Project Milestone Checklist</h3>
+        <p>Set up git repository, structure folders properly, test links locally, and validate markup against the W3C validator.</p>
+      </article>
+
+      <article>
+        <h3>Design Principles &amp; Notes</h3>
+        <p>Keep visual hierarchy clean, maintain high contrast for readability, and ensure forms provide explicit labels for every input field.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 QuickNotes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
