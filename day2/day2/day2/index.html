@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickNotes - Home</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>QuickNotes</h1>
+      <p>A simple, lightweight, and distraction-free notepad for your everyday thoughts.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>My Notes</h2>
+      <p>Capture your thoughts instantly and keep everything organized in your browser.</p>
+
+      <section>
+        <h3>Create a New Note</h3>
+        <form action="#" method="post">
+          <p>
+            <label for="note-title">Note Title:</label><br>
+            <input type="text" id="note-title" name="note_title" placeholder="Meeting agenda..." required>
+          </p>
+          <p>
+            <label for="note-content">Note Content:</label><br>
+            <textarea id="note-content" name="note_content" rows="5" cols="40" placeholder="Type your note here..." required></textarea>
+          </p>
+          <p>
+            <button type="submit">Save Note</button>
+          </p>
+        </form>
+      </section>
+
+      <section>
+        <h3>Recent Notes</h3>
+        <article>
+          <h4>Grocery Shopping List</h4>
+          <p>Apples, whole wheat bread, almond milk, and coffee beans.</p>
+        </article>
+        <article>
+          <h4>Web Development To-Do</h4>
+          <p>Complete Day 1 HTML5 lab, review semantic markup, and test form labels.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built with semantic HTML5.</p>
+    </footer>
+  </body>
+</html>
