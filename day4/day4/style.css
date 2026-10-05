@@ -1,0 +1,30 @@
+/* Colours defined as CSS variables on :root */
+:root {
+  --bg-color: #f1f5f9;
+  --surface-color: #ffffff;
+  --text-color: #0f172a;
+  --text-muted: #64748b;
+  --border-color: #cbd5e1;
+  --border-focus: #2563eb;
+  --btn-bg: #e2e8f0;
+  --btn-text: #0f172a;
+  --btn-hover: #cbd5e1;
+  --btn-border: #94a3b8;
+  --clear-bg: #fee2e2;
+  --clear-text: #991b1b;
+  --clear-hover: #fecaca;
+  --clear-border: #fca5a5;
+  --counter-bg: #f8fafc;
+  --warning-color: orange;
+  --over-color: red;
+  --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+}
+
+/* body.dark rule that changes those variables to a dark theme */
+body.dark {
+  --bg-color: #0b0f17;
+  --surface-color: #1e293b;
+  --text-color: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-color: #334155;
+  --border-focus: #3b82f6;
